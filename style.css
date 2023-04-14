@@ -457,6 +457,9 @@ img {
     #content h3{
     margin-top: 100px;
 }
+    #content .right{
+    font-size:12px;
+    }
 }
 
 html {
