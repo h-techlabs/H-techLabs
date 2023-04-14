@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | HTechLabs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+       <link class="fav" rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+
+            <button onclick="toggleMenu()" class="menu-icon" id="menu-icon">
+                <span class="icon" id="icon"></span>
+                <span class="icon" id="icon"></span>
+                <span class="icon" id="icon"></span>
+
+            </button>
+            <ul class="menu" id="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></e>
+                <li><a href="contact-us.html">Contacto</a></li>
+                <li><a href="proyectos.html">Proyectos</a></l>
+                <li><a href="blog/index.html">Blog</a></li>
+            </ul>
+
+        </nav>
+        <div>
+
+        </div>
+
+        <h1><a href="index.html">HTechLabs</a></h1>
+        <img src="logo.png" alt="logo HtechLabs" id="uwu">
+        <ul id="actions-pc">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="proyectos/">Proyectos</a></li>
+            <li><a href="blog/index.html">Blog</a></li>
+            <li> <a class="contact" href="contact-us.html">Contacto</a></li>
+        </ul>
+    </header>
+    <article class="scroll-anim">
+        <style>
+            .scroll-anim{
+                margin-top: 100px;
+                text-align:center;
+                justify-content: space-between;
+            }
+            .scroll-anim h1{
+                margin-top: 100px;
+                text-align:center;
+            }
+        @media (max-width: 768px){
+            .scroll-anim{
+                margin-top: 150px;
+            }
+        }
+        </style>
+
+        
+            <h1>Contacto | HTechLabs</h1>
+            <p> <B>WhatsApp: +58 4160316135</B><br>
+                <b>Instagram: @htechlabs</b><br>
+            <b>Twitter: @htechlabs</b><br>
+            <b>Facebook: HTechLabs</b>
+            </p>
+         
+            <form action="email.php" method="post" id="form">
+                <input type="text" id="nombre" name="nombre" required placeholder="Nombre...">
+                <input type="email" id="email" name="email" required placeholder="Email...">
+                <textarea name="msg" id="msg" placeholder="Mensaje..."></textarea>
+                <input type="submit" value="Enviar">
+      
+        
+                <style>
+                    #form {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                     
+                        margin: 0 auto;
+                        max-width: 300px;
+                        padding: 10px;
+                        border-radius: 10px;
+                    }
+        
+                    #form input[type="text"],
+                    input[type="email"] {
+                        padding: 5px;
+                        margin-bottom: 10px;
+                        font-size: 20px;
+                        border: 4px solid rgb(9, 99, 178);
+                        border-radius: 10px;
+                        outline: none;
+                        padding-left: 7px;
+                        padding-right: 7px;
+        
+        
+                    }
+        
+                    #form textarea {
+                        padding: 5px;
+                        font-size: 20px;
+                        border: 4px solid rgb(9, 99, 178);
+                        border-radius: 10px;
+                        outline: none;
+                        padding-left: 7px;
+                        padding-right: 7px;
+        
+        
+                    }
+        
+                    #form input[type="submit"] {
+                        padding: 5px;
+                        background-color: rgb(9, 99, 178);
+                        color: white;
+                        font-size: 20px;
+                        border: 4px solid rgb(9, 99, 178);
+                        border-radius: 10px;
+                        outline: none;
+                        padding-left: 7px;
+                        padding-right: 7px;
+                        cursor: pointer;
+                    }
+        
+                    #form input[type="submit"]:hover {
+                        background-color: white;
+                        color: rgb(9, 99, 178);
+                    }
+        
+                    @media (max-width:768px) {
+                        #blogh2 {
+                            margin-top: 20px;
+                            margin-bottom: 20px;
+                        }
+                        .vector img{
+                            visibility: hidden;
+                        }
+                    }
+                </style>
+            
+            </form>
+        </div>
+    </article>
+    <hr> <div class="c"> 
+        <p>HTechLabs© 2023</p>    
+        
+        <style> 
+        .c{
+            color:#fff;
+            text-align: center;
+        }
+        .c p{
+            color:#fff;
+        }
+      
+        </style>
+        </div></hr>
+</body>
+
+</html>
